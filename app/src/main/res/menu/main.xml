@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Settings"
+        android:id="@+id/action_settingsh"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        />
+    <item android:title="Share"
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"/>
+    <item android:title="Search"
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="50"/>
+    <item android:title="Exit"
+        android:id="@+id/action_exit"
+        app:showAsAction="never"/>
+</menu>
